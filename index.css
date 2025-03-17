@@ -1,0 +1,38 @@
+/* *{
+    display: block;
+} */
+body{
+    background-color:#37474f ;
+}
+.quotes-and-buttons{
+    width:85%;
+    height:50vh;
+    border: 1px solid #616161;
+    border-radius: 20px;
+    background-color: #757575;
+    box-shadow: 20px;
+    position: absolute;
+    margin: 100px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.button-container{
+    display: flex;
+    gap: 10px;
+}
+
+.quotes-container{
+    width : 95%;
+    height: 80%;
+    color: #fff;
+    font-size: x-large;
+    align-items: center;
+    border-radius:20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
